@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Financiamento</title>
+    <link rel="stylesheet" href="estilo.css">
+  </head>
+  <body>
+    <main>
+      <div class="section">
+
+        <div class="title"> Financiamento </div>
+
+        <div class="input">
+             <input placeholder="Qual é o seu nome?" type="text" id='nome' required="required">
+        </div>
+
+        <div class="input">
+          <input placeholder="Qual é a sua renda mensal (R$)? Ex: 1.300" type="number" id='renda' required="required" >
+        </div>
+
+        <div class="input">
+            <input  placeholder="Qual é o valor do bem a ser financiado (R$)? Ex:5.000 "  type="number" id='bem'required="required">
+        </div>
+
+        <div class="input">
+          <input  placeholder="Qual é o valor da entrada (R$)? Ex:300 "  type="number" id='entrada'required="required">
+        </div>
+
+        <div class="input">
+          <input  placeholder="Qual é a taxa de juros (%)? Ex: 4% "  type="number" id='taxa'required="required">
+      </div>
+
+      <div class="input">
+        <input  placeholder="Qual é o número de pretações? Ex:10 "  type="number" id='n'required="required">
+      </div>
+
+        <button id='calcular'>Calcular</button>
+
+        <div class="result" id='resultado'></div>
+
+        <footer> Atenção! Isso é somente uma simulação. </footer>  
+
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
